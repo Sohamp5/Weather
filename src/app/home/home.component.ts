@@ -31,13 +31,14 @@ export class HomeComponent implements OnInit {
   }
 
   loca: any
+  cityloc:any
   mor: any
   gogps() {
     this.serv.getgps().subscribe((resp) => {
       console.log(resp)
       this.loca = resp
-      let cityloc = this.loca.city
-      this.router.navigate(['weather', cityloc])
+      this.cityloc = this.loca.city
+      this.router.navigate(['weather', this.cityloc])
     })
   }
 
