@@ -1,0 +1,21 @@
+READ me for PULL
+
+Method 1--
+1> OPEN VScode
+2> download extension - Git hub pull 
+3> Open settings and command pallete
+4> search github clone in vscode and enter
+5> Paste the respository link and enter
+6> create folder and select it
+7> open folder location in vscode terminal
+8> type "ng serve" and the project will get live on the port-4200
+9> simple go to localhost4200 site on web and see the project
+
+method 2--
+1> create a folder
+2> open gitbash and open that folder location in gitbash
+3> type "git clone (paste the link of the repository)" and enter
+4> project clone will be created in the folder
+5> open folder location in vscode terminal
+6> type "ng serve" and the project will get live on the port-4200
+7> simple go to localhost4200 site on web and see the project

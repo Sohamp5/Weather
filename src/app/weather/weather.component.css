@@ -1,0 +1,412 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.bg {
+    width: 100%;
+
+}
+
+.bg img {
+    width: 100%;
+    height: 100vh;
+}
+
+.fg {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* CSS for navbar */
+
+.cont {
+    margin-left: 25%;
+    height: 65vh;
+    width: 50%;
+}
+
+ul {
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 5px 20px;
+    width: 150px;
+    height: 20px;
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    background-color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    height: 32px;
+}
+
+
+/* CSS for current weather */
+.top {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+}
+
+.info {
+    margin-left: 20%;
+}
+
+.info img {
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 50%;
+    height: 150px;
+}
+
+.temp p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.temp h1 {
+    margin-bottom: -20px;
+    color: white;
+    font-size: 150px;
+}
+
+.temp h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* CSS for forcast */
+.forcast {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+
+.only {
+    border-radius: 10px;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 50px;
+}
+
+
+/* MEDIA QUERRIES FOR RESPONSIVE WEB */
+@media (max-width:1200px) {
+
+
+    input {
+        width: 100px;
+    }
+
+
+
+    .info {
+        margin-left: 18%;
+    }
+
+    .info img {
+        margin-top: 50px;
+        margin-right: 15px;
+        height: 120px;
+    }
+
+    .temp p {
+        font-size: 15px;
+    }
+
+    .temp h1 {
+        font-size: 120px;
+    }
+
+    .temp h2 {
+        font-size: 25px;
+    }
+
+}
+
+
+@media (max-width:980px) {
+
+
+    .cont {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    input {
+        font-size: 12px;
+        width: 100px;
+        height: 15px;
+    }
+
+    button {
+        font-size: 15px;
+        height: 25px;
+    }
+
+
+    .info {
+        margin-left: 18%;
+    }
+
+    .info img {
+        margin-top: 50px;
+        margin-right: 15px;
+        height: 120px;
+    }
+
+    .temp p {
+        font-size: 15px;
+    }
+
+    .temp h1 {
+        font-size: 120px;
+    }
+
+    .temp h2 {
+        font-size: 25px;
+    }
+
+
+
+    .only {
+        padding: 20px 0px;
+    }
+
+    .im img {
+        height: 40px;
+    }
+
+}
+
+
+@media (max-width:650px) {
+
+
+    .cont {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    input {
+        font-size: 10px;
+        width: 80px;
+        height: 15px;
+    }
+
+    button {
+        font-size: 10px;
+        height: 25px;
+    }
+
+
+    .info {
+        margin-left: 18%;
+    }
+
+    .info img {
+        margin-top: 50px;
+        margin-right: 15px;
+        height: 100px;
+    }
+
+    .temp p {
+        font-size: 12px;
+    }
+
+    .temp h1 {
+        font-size: 100px;
+    }
+
+    .temp h2 {
+        font-size: 20px;
+    }
+
+    .only {
+        padding: 10px 0px;
+    }
+
+    .forcast p {
+        font-size: 10px;
+    }
+
+    .forcast h2 {
+        font-size: 15px;
+    }
+
+    .im img {
+        height: 30px;
+    }
+
+}
+
+
+
+@media (max-width:500px) {
+
+
+    .cont {
+        margin-left: 0;
+        width: 100%;
+    }
+
+
+    .only {
+        padding: 10px 0px;
+    }
+
+
+    .forcast p {
+        font-size: 8px;
+    }
+
+    .forcast h2 {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:450px) {
+
+
+    .cont {
+        margin-left: -5%;
+        width: 100%;
+    }
+
+    input {
+        margin-left: -30px;
+        font-size: 8px;
+        width: 100px;
+        height: 12px;
+    }
+
+    button {
+        font-size: 10px;
+        height: 25px;
+    }
+
+    .temp p {
+        font-size: 8px;
+    }
+
+    .temp h1 {
+        font-size: 80px;
+    }
+
+    .temp h2 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .info img {
+        margin-top: 40px;
+        margin-right: 15px;
+        height: 80px;
+    }
+
+    .only {
+        padding: 10px 0px;
+    }
+
+
+    .forcast p {
+        font-size: 8px;
+    }
+
+    .forcast h2 {
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media (max-width:360px) {
+
+
+    .cont {
+        margin-left: -5%;
+        width: 100%;
+    }
+
+    input {
+        margin-left: -30px;
+        font-size: 8px;
+        width: 50px;
+        height: 10px;
+    }
+
+    button {
+        font-size: 8px;
+        height: 20px;
+    }
+
+    .temp p {
+        font-size: 8px;
+    }
+
+    .temp h1 {
+        font-size: 50px;
+    }
+
+    .temp h2 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .info img {
+        margin-top: 40px;
+        margin-right: 15px;
+        height: 50px;
+    }
+
+    .only {
+        padding: 10px 0px;
+    }
+
+
+    .forcast p {
+        font-size: 8px;
+    }
+
+    .forcast h2 {
+        font-size: 12px;
+    }
+
+}

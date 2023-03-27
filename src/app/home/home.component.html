@@ -1,0 +1,13 @@
+<body>
+    <div class="bg">
+        <img [src]="mor" alt="">
+    </div>
+    <!-- search bar -->
+    <div class="main">
+        <h2>WEATHERMAN</h2>
+        <input #city type="text">
+        <button (click)="go(city.value)">search</button>
+        <button (click)="gogps()">live</button>
+    </div>
+
+</body>
