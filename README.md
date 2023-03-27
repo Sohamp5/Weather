@@ -1,3 +1,20 @@
+READ me for PULL
+
+1> create a folder
+
+2> open gitbash and open that folder location in gitbash
+
+3> type "git clone (paste the link of the repository)" and enter
+
+4> project clone will be created in the folder
+
+5> open folder location in vscode terminal
+
+6> type "npm install" in the terminal and hit enter
+
+7> type "ng serve" and the project will get live on the port-4200
+
+8> simple go to localhost4200 site on web and see the project
 # Weatherap
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
