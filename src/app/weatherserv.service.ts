@@ -16,7 +16,7 @@ export class WeatherservService {
 
   // API to get location coordinates
   getlocation(city:any){
-    return this.http.get(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=0b38cdaaee46418fe94c36a0d332e0af`)
+    return this.http.get(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=0b38cdaaee46418fe94c36a0d332e0af`)
   }
 
 
