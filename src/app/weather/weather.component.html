@@ -34,7 +34,7 @@
         <div class="forcast">
             <div class="infor" *ngFor="let dat of forcast, let i = index">
                 <div class="only" *ngIf="i%8==0">
-                    <p>{{dat.dt_txt}}</p><br>
+                    <p>{{dat.dt_txt.slice(0,10)}}</p><br>
                     <h2>{{dat.main.temp.toFixed(0) - 273}}C</h2>
                     <div class="card" *ngFor="let cat of dat.weather">
                         <h2>{{cat.main}}</h2>

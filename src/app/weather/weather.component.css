@@ -80,7 +80,7 @@ button {
 .info img {
     margin-top: 50px;
     margin-right: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.4);
     border-radius: 50%;
     height: 150px;
 }
